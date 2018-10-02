@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+  }
+  
+.character-card{
+  display: inline-block;
+}
+
+.card-img-top {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+  margin: 0 auto;
+}
+  
