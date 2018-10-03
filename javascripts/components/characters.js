@@ -21,9 +21,37 @@ const createEvents = () => {
   }
 };
 
-const charactersBuilder = () => {
+
+const sortPeople = (e) => {
+  const house = e.target.id;
+  const filteredPeeps = characters.filter(x => x.house ===house);
+  charactersBuilder(filteredPeeps);//passing in peeps//
+//now you need a IF STATEMENT  //filter is when you are returning multiple things.. FIND is when we are looking for the first one that matches
+  if(house==='ALL'){
+    charactersBuilder(characters);
+    } else {
+
+    // const (filteredPeeps);
+
+  }
+  console.log('you hit sort',e.target.id);
+};
+
+
+const sortEvents =() => {///where should I call this? what is a good way to remember where to call when I have to add new functions? 
+  const allButton = document.getElementById('All');
+  const starkButton = document.getElementById('stark');
+  allButton.addEventListener('click',sortPeople);
+  starkButton.addEventListener('click',sortPeople);
+};
+const getCharacterz =() => {
+  return characters;
+  //this returns the characterArray
+};
+
+const charactersBuilder = (characterArray) => {
   let domString = '';
-  characters.forEach((character) => {
+  characterArray.forEach((character) => {
     domString += `<div class="col-2 character-card" id="${character.id}">`
     domString +=   `<div class="card">`;
     domString +=    `<img class="card-img-top" src="${character.imageUrl}" alt="${character.name}">`;
@@ -37,4 +65,4 @@ const charactersBuilder = () => {
   createEvents();
 };
 
-export {charactersBuilder,setCharacters};
+export {charactersBuilder,setCharacters,getCharacterz,sortEvents};//everything here must be in a import
