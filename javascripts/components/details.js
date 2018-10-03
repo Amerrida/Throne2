@@ -1,9 +1,13 @@
 import  {printToDom} from '../helpers/util.js';
 import {charactersBuilder} from '../components/characters.js';
+import{charactersBuilder,getCharacterz} from '.characters.js'
 
 const closeButtonEvent =() => {
     const closeButton = document.getElementById('close');
-    closeButton.addEventListener('click',)
+    closeButton.addEventListener('click',() => {
+        charactersBuilder(getCharacterz())
+    });
+    //this will resolve getCharacterz first then call and display our array
 }
 
 const detailsBuilder = (character) => {

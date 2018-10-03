@@ -1,10 +1,10 @@
 //two functions one for when it loads and one when it fails
-import {setCharacters,charactersBuilder} from '../components/characters.js';
+import {setCharacters,charactersBuilder,getCharacterz} from '../components/characters.js';
 
 function executeThisCodeAfterFileLoaded () {
 const data = JSON.parse(this.responseText);
 setCharacters (data.characters);//this is the only part that will change
-charactersBuilder ();//this is the only part that will change
+charactersBuilder (getCharacterz());//this is the only part that will change
 // console.log ('request', data.characters);//this is your array/// I need this to be on characters.js line 4
 
 //we basically took a BIG String and brougt it down
