@@ -1,0 +1,76 @@
+{
+   "characters":[
+    {"id":"character1",
+    "name": "John Snow",
+    "house": "Stark", 
+    "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/a/a5/Profile-JonSnow-707.png/revision/latest?cb=20170828030553"
+    },
+
+    {"id":"character2",
+     "name": "Daenerys Targaryen", 
+     "house": "Targaryen",
+     "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/5f/Daenerys_Dragonpit.jpg/revision/latest?cb=20171015095128"
+
+    },
+
+    { "id" :"character3",
+     "name":"Cersei Lannister",
+     "house": "Lannister", 
+     "imageUrl":"https://vignette.wikia.nocookie.net/gameofthrones/images/c/c3/Profile-CerseiLannister.png/revision/latest/scale-to-width-down/323?cb=20170828071355"
+    },
+
+    {"id":"character4",
+     "name": "Tyrion Lannister",
+     "house": "Lannister", 
+     "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/58/Tyrion_main_s7_e6.jpg/revision/latest?cb=20170818050344"
+    },
+
+    {"id":"character5",
+      "name": "Sansa Stark",
+      "house": "Stark", 
+      "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/7/7e/Sansastark706.jpg/revision/latest/scale-to-width-down/316?cb=20170828072803"
+    },
+
+    {"id":"character6",
+        "name": "Arya Stark",
+        "house": "Stark", 
+        "imageUrl": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&ved=2ahUKEwi5_7PPhOndAhWQylMKHeZXCrsQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FArya_Stark&psig=AOvVaw0oncoomQqyHSMATFeajaLL&ust=1538613644996865"
+    },
+
+    {"id":"character7",
+        "name": "Ned Stark",
+        "house": "Stark", 
+        "imageUrl": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjaiOXBhOndAhWP2FMKHWeUCy4QjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNed_Stark&psig=AOvVaw0LHhtTQ3jkpHcVizfFwN4a&ust=1538613616442797"
+    },
+
+      {"id":"character8",
+        "name": "Khal Drogo",
+        "house": "Lannister", 
+        "imageUrl": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjn-sOrhOndAhURzVMKHQUwB6EQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKhal_Drogo&psig=AOvVaw0HZqPIwkqXjv7LVC-Hof0g&ust=1538613569734137"
+      },
+
+      {"id":"character9",
+        "name": "Khal Drogo",
+        "house": "Lannister", 
+        "imageUrl": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjn-sOrhOndAhURzVMKHQUwB6EQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKhal_Drogo&psig=AOvVaw0HZqPIwkqXjv7LVC-Hof0g&ust=1538613569734137"
+      },
+
+      {"id":"character9",
+        "name": "Margaery Tyrell",
+        "house": "Lannister", 
+        "imageUrl": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjgjY2QhendAhWJzVMKHfF0CdIQjRx6BAgBEAU&url=http%3A%2F%2Fgameofthrones.wikia.com%2Fwiki%2FMargaery_Tyrell&psig=AOvVaw17O-kArkUfCUcuZ0RMoxsg&ust=1538613780671141"
+      },
+
+      {"id":"character10",
+        "name": "Daario Naharis",
+        "house": "Lannister", 
+        "imageUrl": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjY09SrhendAhXOqlMKHco0DWsQjRx6BAgBEAU&url=http%3A%2F%2Fgameofthrones.wikia.com%2Fwiki%2FDaario_Naharis&psig=AOvVaw0VPyqLuqmstJJX6fNGnSxO&ust=1538613838425493"
+      }
+
+   ]
+   
+   
+
+}
+
+//must type this in key value pairs
