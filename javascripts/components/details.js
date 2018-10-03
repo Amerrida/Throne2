@@ -1,5 +1,5 @@
-import  {printToDom} from '..helpers/util.js';
-import {charactersBuilder} from '.'
+import  {printToDom} from '../helpers/util.js';
+import {charactersBuilder} from '../components/characters.js';
 
 const closeButtonEvent =() => {
     const closeButton = document.getElementById('close');
