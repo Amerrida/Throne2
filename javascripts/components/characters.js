@@ -38,3 +38,4 @@ const charactersBuilder = () => {
 };
 
 export {charactersBuilder,setCharacters};
+
